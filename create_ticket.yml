@@ -5,10 +5,7 @@
   collections:
     - servicenow.servicenow
 
-  tasks:
-  - name: include vars
-    include_vars: change_request_vars.yml
-  
+  tasks:  
   - name: Create an incident
     snow_record:
       username: "{{ sn_username }}"
