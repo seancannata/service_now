@@ -1,6 +1,6 @@
 ---
 - name: Using ServiceNow Collection
-  hosts: localhost
+  hosts: all
   gather_facts: no
   collections:
     - servicenow.servicenow
